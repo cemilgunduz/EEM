@@ -1,0 +1,30 @@
+SON DAKÝKA | Üç corona virüs aþýsý arasýnda ilginç farklar! Pfizer, Moderna, AstraZeneca corona virüs aþýlarýnda son durum
+Koronavirüs aþýlarý hakkýnda son dakika haberleri peþ peþe geliyor. Deneysel aþýlarýn üçü (en azýndan üreticiler tarafýndan medyayla paylaþýlan bilgilere göre) dikkate deðer bir baþarýya ulaþtý. Peki, en baþarýlý üç corona virüs aþýsý arasýndaki fark ne, nasýl iþliyorlar ve corona virüs aþýsý çalýþmalarýnda son durum ne? Ýþte, aralarýnda Türk yönetici ve kurucularýn da bulunduðu þirketler tarafýndan dünya çapýnda geliþtirilen corona virüs aþýlarý hakkýnda çarpýcý bilgiler ve üç aþý arasýndaki fark...
+Küresel aþý devi AstraZeneca, aþýnýn koronavirüs enfeksiyonunu engellediðini, insanlarýn ayda iki doz aldýklarýnda corona virüsü %62 oranýnda önlediðini bildirdi. Ancak yarým doz ve ardýndan bir ay sonra tam doz alan gönüllülerden oluþan bir alt grupta, aþýnýn %90 etkili olduðu görüldü. Bu, ortalama %70 oranýnda bir baþarýya denk gelmektedir. Pfizer Inc ve biyoteknoloji þirketi Moderna tarafýndan yapýlan aþýlarýn, %95 oranýnda semptomatik enfeksiyonlara karþý koruma saðladýðý bildirildi.
+
+Pfizer'in ve Moderna'nýn aþýlarý çok benzer teknolojiyi kullanýrken, AstraZeneca farklý bir yaklaþým biçimine sahip. Amerika Birleþik Devletleri'nde federal hükümet desteði alan altý aþý arasýnda ve dünya çapýnda onlarca ülkede geliþtirme aþamasýnda.
+
+PFÝZER VE BIONTECH
+
+Pfizer ve Almanya merkezli ortaðý BioNTech, RNA veya mRNA kullanan aþýlar yapmak için yeni bir yaklaþým kullanýyor.
+
+Bu tasarým, yýllar önce pandemik bir aþý için tercih edilmiþti. Bunun nedeni, hýzlý bir geri dönüþe izin veren bir tasarýma sahip olmasý. Bu aþý tasarýmýnda yeni bir virüse karþý bir aþý geliþtirmek için tek gereken, pandemiye neden olan virüsün genetik dizisidir. Aþýyý üretenlerin virüsün kendisine bile ihtiyacý yoktur! Sadece genetik diziliþ bu tasarým yöntemini kullanan aþý þirketleri için yeterlidir.
+Bu durumda, BioNTech araþtýrmacýlarý, koronavirüsün yüzeyini çevreleyen ve ona çivili bir görünüm veren baþak proteinindeki genetik diziliþi kullandýlar.
+
+RNA, hücrelerin bir protein yapmak için "okuyabileceði" ve kullanabileceði genetik kodun tek bir sarmalýdýr. Bu aþý yapýldýðýnda, mRNA vücuttaki hücrelere virüsün baþak proteininin belirli bir parçasýný yapmalarý talimatýný verir. Daha sonra baðýþýklýk sistemi onu görür, onu yabancý olarak tanýr ve gerçek enfeksiyon meydana geldiðinde saldýrmaya hazýrlanýr.
+
+MRNA çok kýrýlgandýr, bu yüzden lipid nanopartiküllerle kaplýdýr. Lipid nanopartiküller oda sýcaklýðýnda eriyebilen bir tereyaðýna benzeyen bir kaplama gibidir. Bu nedenle Pfizer'in aþýsý, yaklaþýk eksi 100 derece F (eksi 75 derece C) gibi çok soðuk sýcaklýklarda tutulmalýdýr. Bu, bu aþýnýn taþýnmasý ve depolanmasý için özel ekipman gerektiði anlamýna gelir.
+
+
+MODERNA
+Moderna'nýn aþýsý da mRNA'ya dayanmaktadýr. Moderna web sitesinde "mRNA hücre için bir yazýlým gibidir" dedi.
+Pfizer / BioNTech aþýsý gibi, hücrelerin baþak proteininden bir parça yapmasýný saðlýyor ve insan vücudunu corona virüs proteininin aldatmacasýna karþý hazýrlýklý hale getiriyor. Bilim adamlarý, zaman geçtikçe mutasyona uðramayacaðýný veya fazla deðiþmeyeceðini düþündükleri virüsten bir parça seçmek zorunda kaldýlar. Virüs, saldýrdýðý hücreleri kavramak için baþak proteinini kullanýyor ve yapýnýn, viral replikasyonun üretilmesinden sonra nesil boyunca stabil kaldýðý biliniyor.
+Moderna, aþýsýndaki mRNA'yý korumak için lipid nanopartiküller için farklý bir formülasyon geliþtirdi. Bu formülasyonlar kurumsal sýrlardýr, ancak Moderna yaklaþýmýnýn daha iyi olduðunu düþünüyor ve aþýsýnýn eksi 20 derece C'de (eksi 4 derece F) sevk edilebileceðini ve 2 derece ila 8 derece C'de (36 ila 46F) 30 gün boyunca stabil tutulabileceðini söyledi. Bu da standart bir buzdolabýnýn sýcaklýðýnda aþýnýn saklanabileceði anlamýna geliyor.
+ASTRAZENECA
+
+Ýngiltere'nin Oxford Üniversitesi'nde bir ekiple yapýlan AstraZeneca aþýsýna vektör aþýsý deniyor. Baþak proteinini koronavirüsten hücrelere taþýmak için adenovirüs adý verilen yaygýn bir soðuk virüs kullanýlýyor.
+Ayrýca, baþak proteininin küçük kopyalarýný karýþtýrarak insanlarýn vücutlarýnýn özünde kendi aþýlarýný üretmelerini saðlamayý hedefler, ancak teslim yöntemi farklýdýr. Bu adenovirüs þempanzelere bulaþýr ama insanlarý hasta etmez. Bu aþý, virüsün genetik yapýsýna vücudu hazýrlamak için virüs proteinin kendini kopyalamamasý için modifiye edildi. Daha sonra tam koronavirüs spike (iðne-diken) proteinini kodlayan DNA ile hücrelere enjekte etmek için genetik olarak tasarlandý.
+
+
+Aþý yapmanýn daha ucuz bir yolu ama RNA kullanýlarak yapýlan yöntemden daha yavaþ. Þirket, aþýsýný dünyanýn dört bir yanýndaki ülkelere ucuza satma sözü verdi. Þirket, aþýnýn standart buzdolabý sýcaklýklarýnda altý ay boyunca stabil tutulabileceðini söyledi.
+
