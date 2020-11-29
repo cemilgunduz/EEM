@@ -1,6 +1,9 @@
-%num = -50.001;
+%num = -50.0001;
 num = input('Ondalýklý bir sayý giriniz : ');
-floatToBinary(num)
+binary_vector = floatToBinary(num);
+binary_representation = strjoin(binary_vector, ' ')
+hexadecimal = binaryToHex(floatToBinary(num));
+hex_representation = strjoin(['0 x ', string(hexadecimal)], '')
 
 function result = floatToBinary(num)
     %this is the main function that calculates 
@@ -14,9 +17,24 @@ function result = floatToBinary(num)
     mantissa =  [int_binary(2:end),dec_binary];
     if length(mantissa)>23
         mantissa = mantissa(1:23); %if longer: take 23 digits
+    else
+        mantissa(23) = 0;%normalize mantissa to 23 digits
     end
-    mantissa(23) = 0;%normalize mantissa to 23 digits
-    result = strjoin([sign, exp_binary, string(mantissa)]);
+    result = [sign, exp_binary, string(mantissa)];
+end
+
+function hex = binaryToHex(binary_vector)
+    %this method calculates hexadecimal representation of a binary float
+    hex = strings(1,8);
+    bv = double(binary_vector); % for readability
+    for i = 0:7
+        sumX = bv(i*4+1)*2^3 + bv(i*4+2)*2^2 + bv(i*4+3)*2^1 + bv(i*4+4)*2^0;
+        hex_Values = ["A", "B", "C", "D", "E", "F"];
+        if sumX > 9
+            sumX = hex_Values(mod(sumX, 10)+1);
+        end
+        hex(i+1) = string(sumX);
+    end
 end
 
 function result = toBinary(n)
@@ -35,7 +53,7 @@ function dec_bin = toDecBinary(n)
     cnt = 1;
     intparts = [];
     [~, dec] = splitNumber(n);
-    while cnt<24 && dec ~=0
+    while cnt<25 && dec ~=0
         [intnum, dec] = splitNumber(n*2);
         intparts = [intparts, intnum];
         n = dec;

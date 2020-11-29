@@ -1,13 +1,12 @@
-text = 'Sabahattin Ali (25 Þuuubat 1907 - 2 2 2 Nisan 1998), Türk yazar ve þair. Edebi kiþiliðini toplumcu gerçekçi bir düzleme oturtarak yaþamýndaki deneyimlerini okuyucusuna yansýttý ve kendisinden sonraki cumhuriyet dönemi Türk edebiyatýný etkileyen bir figür hâline geldi. Daha çok öykü türünde eserler verse de romanlarýyla ön plana çýktý; romanlarýnda uzun tasvirlerle ele aldýðý sevgi ve aþk temasýný, zaman zaman siyasi tartýþmalarýna gönderme yapan anlatýlarla zaman zaman da toplumsal aksaklýklara yönelttiði eleþtirilerle destekledi. Kuyucaklý Yusuf (1937), Ýçimizdeki Þeytan (1940) ve Kürk Mantolu Madonna (1943) romanlarý Türkiyedeki edebiyat çevrelerinin takdirini toplayarak hem 20. yüzyýlda hem de 21. yüzyýlda etkisini sürdürdü. Eðriderede doðan Ali, ilk hikâye ve þiir denemelerine Balýkeside baþladýktan sonra Ýstanbuldaki edebiyat öðretmeni Ali Canip Yöntemin desteðiyle ilk kez Akbaba ve Çaðlayan dergilerinde þiirlerini yayýmlattý. Anadoluda kýsa süre öðretmenlik yaptýktan sonra Türkiye tarafýndan dil eðitimi için Almanyaya gönderildi. Ülkesine geri döndüðünde Almanca öðretmeni olarak göreve baþlasa da önce komünizm propagandasý yaptýðý iddiasýyla bir süre tutuklandý, ardýndan ise ülkesinin yöneticilerini eleþtirdiði iddiasýyla tekrar tutuklandý. Bu dönemde memurluktan ihraç edilince görevine geri dönebilmek için Atatürk hakkýnda bir þiir yazdý ve tekrar devlet kurumlarýnda görevlendirildi. Ayrýca kendisine yüklenen sosyalist algýsýný kýrmak için de Esirler adlý bir oyun kaleme aldý.';
 
 group1 = getNewsGroup("sozcu");
 group2 = getNewsGroup("sabah");
 test = calculateVector(fileread("news\hurriyet.txt"));
-euclidean_distance_to_news_group1 = calculateEuclid(group1, test);
-euclidean_distance_to_news_group2 = calculateEuclid(group2, test);
+euclidean_distance_to_news_group1 = calculateEuclid(group1, test)
+euclidean_distance_to_news_group2 = calculateEuclid(group2, test)
 
-mahalanobis_distance_to_news_group1 = calculateMahal(group1, test);
-mahalanobis_distance_to_news_group2 = calculateMahal(group2, test);
+%mahalanobis_distance_to_news_group1 = calculateMahal(group1, test)
+%mahalanobis_distance_to_news_group2 = calculateMahal(group2, test)
 
 
 function euclid = calculateEuclid(news_matrix, test)
@@ -22,11 +21,6 @@ function euclid = calculateEuclid(news_matrix, test)
 end
 
 function mahalanobis = calculateMahal(news_matrix, test)
-    for i=1:size(news_matrix,2)
-        if ~any(news_matrix(:, i))
-            news_matrix(end, i)=1;
-        end 
-    end
     covX = cov(news_matrix);
     mu = mean(news_matrix,1);
     inX = inv(covX);
@@ -44,8 +38,9 @@ end
 
 function result_vector = calculateVector(text)
     text = char(text);
-    %kelime bigram/trigramlarýnda kullanýlmak üzere basit metin temizleme.
+    %kelime bigram/trigramlarýnda kullanýlmak üzere basit metin temizleme yapýldý.
     %kelime sayýsý, ortalama harf sayýsýnda da temizlenmiþ metin kullanýldý.
+    %ltext = temizlenmiþ metin
     ltext = lower(text);
     ltext = erasePunctuation(ltext);
     words = string(split(ltext, ' '));
