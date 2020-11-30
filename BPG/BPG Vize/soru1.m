@@ -5,8 +5,8 @@ test = calculateVector(fileread("news\hurriyet.txt"));
 euclidean_distance_to_news_group1 = calculateEuclid(group1, test)
 euclidean_distance_to_news_group2 = calculateEuclid(group2, test)
 
-%mahalanobis_distance_to_news_group1 = calculateMahal(group1, test)
-%mahalanobis_distance_to_news_group2 = calculateMahal(group2, test)
+mahalanobis_distance_to_news_group1 = calculateMahal(group1, test)
+mahalanobis_distance_to_news_group2 = calculateMahal(group2, test)
 
 
 function euclid = calculateEuclid(news_matrix, test)
