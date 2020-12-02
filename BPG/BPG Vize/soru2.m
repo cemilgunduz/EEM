@@ -1,11 +1,10 @@
-%initial_matrix = randi([0,255],200,200);
+initial_matrix = randi([0,255],200,200);
 studentID = '200517005';
 student_name = 'Cemil';
-initial_matrix = zeros(200,200);
+%initial_matrix = zeros(200,200);
 
 [st_row, st_col] = calculateStart(studentID, student_name);
 [fin_row, fin_col] = calculateFinish(student_name);
-finish_value = initial_matrix(fin_row, fin_col);
 
 %this part is for the restriction of the robot.
 %if restricted then checks if robot is on a restricted cell

@@ -1,12 +1,24 @@
 
 group1 = getNewsGroup("sozcu");
 group2 = getNewsGroup("sabah");
-test = calculateVector(fileread("news\hurriyet.txt"));
-euclidean_distance_to_news_group1 = calculateEuclid(group1, test)
-euclidean_distance_to_news_group2 = calculateEuclid(group2, test)
+test = calculateVector(fileread("news\cumhuriyet.txt"));
+euclidean_distance_to_news_group1 = calculateEuclid(group1, test);
+euclidean_distance_to_news_group2 = calculateEuclid(group2, test);
 
-mahalanobis_distance_to_news_group1 = calculateMahal(group1, test)
-mahalanobis_distance_to_news_group2 = calculateMahal(group2, test)
+mahalanobis_distance_to_news_group1 = calculateMahal(group1, test);
+mahalanobis_distance_to_news_group2 = calculateMahal(group2, test);
+
+if euclidean_distance_to_news_group1<euclidean_distance_to_news_group2
+    disp ("Öklid uzaklýðý hesaplamasýna göre verilen test örneði 1. gruba daha yakýndýr." )
+else
+    disp ("Öklid uzaklýðý hesaplamasýna göre verilen test örneði 2. gruba daha yakýndýr." )
+end
+
+if mahalanobis_distance_to_news_group1<mahalanobis_distance_to_news_group2
+    disp ("Mahalanobis uzaklýðý hesaplamasýna göre verilen test örneði 1. gruba daha yakýndýr." )
+else
+    disp ("Mahalanobis uzaklýðý hesaplamasýna göre verilen test örneði 2. gruba daha yakýndýr." )
+end
 
 
 function euclid = calculateEuclid(news_matrix, test)
@@ -24,7 +36,7 @@ function mahalanobis = calculateMahal(news_matrix, test)
     covX = cov(news_matrix);
     mu = mean(news_matrix,1);
     inX = inv(covX);
-    mahalanobis = sqrt((test - mu) * inX * (test-mu)');
+    mahalanobis = sqrt((test - mu) * covX * (test-mu)');
 end
 
 function group_matrix = getNewsGroup(news)
